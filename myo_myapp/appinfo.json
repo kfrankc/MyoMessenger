@@ -1,0 +1,44 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "Pebble Technology",
+    "longName": "HappyHour",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "images/uber_white.png",
+                "name": "IMAGE_ACTION_ICON_UBER",
+                "type": "png"
+            },
+            {
+                "file": "images/happyhour1_black.png",
+                "name": "IMAGE_HAPPY",
+                "type": "png"
+            },
+            {
+                "file": "images/action_icon_minus.png",
+                "name": "IMAGE_ACTION_ICON_MINUS",
+                "type": "png"
+            },
+            {
+                "file": "images/action_icon_plus.png",
+                "name": "IMAGE_ACTION_ICON_PLUS",
+                "type": "png"
+            }
+        ]
+    },
+    "sdkVersion": "3",
+    "shortName": "HappyHour",
+    "targetPlatforms": [
+        "aplite",
+        "basalt"
+    ],
+    "uuid": "703b16db-2e94-4b39-83ea-3f206a254235",
+    "versionLabel": "2.0",
+    "watchapp": {
+        "watchface": false
+    }
+}

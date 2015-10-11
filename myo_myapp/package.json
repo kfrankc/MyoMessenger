@@ -1,0 +1,25 @@
+{
+  "name": "happyhour",
+  "version": "1.0.0",
+  "description": "Pebble app that counts your drinks for you and lets you know when you have had enough to drink, and gives an estimated BAC. In addition, it calls an Uber for you when you are ready to go home, and tells your friends that you are on your way, via SMS or Facebook.",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.13.3",
+    "node-uber": "^0.0.6",
+    "twilio": "^2.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ruthjohnson95/HappyHour.git"
+  },
+  "author": "Frank Chen, Ruthie Johnson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ruthjohnson95/HappyHour/issues"
+  },
+  "homepage": "https://github.com/ruthjohnson95/HappyHour#readme"
+}
