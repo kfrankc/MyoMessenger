@@ -39,8 +39,9 @@ function sendMessage(toNum, bodyText){
 app.get('/', function (req, res) {
 	var url_parts = url.parse(req.url, true);
 	var message = url_parts.query.message;
+	var number = url_parts.query.number;
 
-    sendMessage("+19512640510", message);
+    sendMessage(number, message);
 	
 });
 
