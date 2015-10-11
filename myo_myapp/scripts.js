@@ -15,7 +15,7 @@ myMyo.on('fist', function(edge){
     {
       firstGesture = true;
       var req = new XMLHttpRequest();
-      var message = "I'm on my way. Be there soon."
+      var message = "I'm on my way. Be there soon. Sent from MyoMessenger"
       req.open('GET', 'http://f14c04eb.ngrok.io/?message=' + message + '&number=' + number, true);
       req.send(null);
     }
@@ -34,7 +34,7 @@ myMyo.on('fingers_spread', function(edge){
     {
       firstGesture = true;
       var req = new XMLHttpRequest();
-      var message = "Sorry I can't come to the phone right now. I'm driving."
+      var message = "Sorry I can't come to the phone right now. I'm driving. Sent from MyoMessenger"
       req.open('GET', 'http://f14c04eb.ngrok.io/?message=' + message + '&number=' + number, true);
       req.send(null);
     }
@@ -53,7 +53,7 @@ myMyo.on('wave_in', function(edge){
     {
       firstGesture = true;
       var req = new XMLHttpRequest();
-      var message = "Sorry I'm busy. I'll call you back."
+      var message = "Sorry I'm busy. I'll call you back. Sent from MyoMessenger"
       req.open('GET', 'http://f14c04eb.ngrok.io/?message=' + message + '&number=' + number, true);
       req.send(null);
     }
@@ -72,7 +72,7 @@ myMyo.on('wave_out', function(edge){
     {
       firstGesture = true;
       var req = new XMLHttpRequest();
-      var message = "Just got in the car. Talk to you later."
+      var message = "Just got in the car. Talk to you later. Sent from MyoMessenger"
       req.open('GET', 'http://f14c04eb.ngrok.io/?message=' + message + '&number=' + number, true);
       req.send(null);
     }
@@ -91,7 +91,7 @@ myMyo.on('thumb_to_pinky', function(edge){
     {
       firstGesture = true;
       var req = new XMLHttpRequest();
-      var message = "Gotta go. I'm on the road."
+      var message = "Gotta go. I'm on the road. Sent from MyoMessenger"
       req.open('GET', 'http://f14c04eb.ngrok.io/?message=' + message + '&number=' + number, true);
       req.send(null);
     }
