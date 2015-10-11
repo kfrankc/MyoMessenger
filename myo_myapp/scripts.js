@@ -2,7 +2,7 @@ var Myo = require('myo');
 var myMyo = Myo.create();
 var XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
 var firstGesture = true;
-var numbers = ["+17143069521","+15624587737","+15598022442","+15105658237","+19512640510"];
+var numbers = ["+19093735938","+15624587737","+15598022442","+15105658237","+19512640510"];
 var number = "";
 myMyo.on('fist', function(edge){
   myMyo.timer(edge, 500, function(){
