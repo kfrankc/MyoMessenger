@@ -15,7 +15,7 @@ myMyo.on('fist', function(edge){
     {
       firstGesture = true;
       var req = new XMLHttpRequest();
-      var message = "Fist"
+      var message = "I'm on my way. Be there soon."
       req.open('GET', 'http://f14c04eb.ngrok.io/?message=' + message + '&number=' + number, true);
       req.send(null);
     }
@@ -34,7 +34,7 @@ myMyo.on('fingers_spread', function(edge){
     {
       firstGesture = true;
       var req = new XMLHttpRequest();
-      var message = "Fingers Spread"
+      var message = "Sorry I can't come to the phone right now. I'm driving."
       req.open('GET', 'http://f14c04eb.ngrok.io/?message=' + message + '&number=' + number, true);
       req.send(null);
     }
@@ -53,7 +53,7 @@ myMyo.on('wave_in', function(edge){
     {
       firstGesture = true;
       var req = new XMLHttpRequest();
-      var message = "Wave In"
+      var message = "Sorry I'm busy. I'll call you back."
       req.open('GET', 'http://f14c04eb.ngrok.io/?message=' + message + '&number=' + number, true);
       req.send(null);
     }
@@ -72,7 +72,7 @@ myMyo.on('wave_out', function(edge){
     {
       firstGesture = true;
       var req = new XMLHttpRequest();
-      var message = "Wave Out"
+      var message = "Just got in the car. Talk to you later."
       req.open('GET', 'http://f14c04eb.ngrok.io/?message=' + message + '&number=' + number, true);
       req.send(null);
     }
@@ -91,7 +91,7 @@ myMyo.on('thumb_to_pinky', function(edge){
     {
       firstGesture = true;
       var req = new XMLHttpRequest();
-      var message = "Double Tap"
+      var message = "Gotta go. I'm on the road."
       req.open('GET', 'http://f14c04eb.ngrok.io/?message=' + message + '&number=' + number, true);
       req.send(null);
     }
